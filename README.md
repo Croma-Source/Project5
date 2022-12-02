@@ -24,16 +24,16 @@ webpage
 
 # Part 3
 - My restart script looks like this "#!/bin/sh
-#Pull latest version of the image
-docker pull cromasource/project5:PetrockApache
-#Remove unused images
-docker image prune -f
-#Stop the container
-docker kill petrockapache
-#Remove the container
-docker rm petrockapache
-Recreate the container
-docker run -p 80:80 -d --name petrockapache cromasource/project5:PetrockApache"
+-#Pull latest version of the image
+-docker pull cromasource/project5:PetrockApache
+-#Remove unused images
+-docker image prune -f
+-#Stop the container
+-docker kill petrockapache
+-#Remove the container
+-docker rm petrockapache
+-Recreate the container
+-docker run -p 80:80 -d --name petrockapache cromasource/project5:PetrockApache"
 
 Used from this script from the article: https://blog.devgenius.io/build-your-first-ci-cd-pipeline-using-docker-github-actions-and-webhooks-while-creating-your-own-da783110e151
 
@@ -43,8 +43,8 @@ Used from this script from the article: https://blog.devgenius.io/build-your-fir
 -I used the command "sudo apt-get install webhook" to install my webhook program
 
 -My hooks.yml looks like this '- id: redeploy-webhook
-  execute-command: "/var/scripts/redeploy.sh"
-  command-working-directory: "/var/scripts"
+ - execute-command: "/var/scripts/redeploy.sh"
+ - command-working-directory: "/var/scripts"
   '
 
   # Part 4
