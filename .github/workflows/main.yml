@@ -39,5 +39,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: cromasource/project5:tagname
+          tags: cromasource/project5:PetrockApache
           labels: ${{ steps.meta.outputs.labels }}
