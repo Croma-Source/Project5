@@ -39,5 +39,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: cromasource/project5:tagname
           labels: ${{ steps.meta.outputs.labels }}
