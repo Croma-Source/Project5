@@ -24,15 +24,15 @@ webpage
 
 # Part 3
 - My restart script looks like this "#!/bin/sh
-# Pull latest version of the image
+#Pull latest version of the image
 docker pull cromasource/project5:PetrockApache
-# Remove unused images
+#Remove unused images
 docker image prune -f
-# Stop the container
+#Stop the container
 docker kill petrockapache
-# Remove the container
+#Remove the container
 docker rm petrockapache
-# Recreate the container
+Recreate the container
 docker run -p 80:80 -d --name petrockapache cromasource/project5:PetrockApache"
 
 Used from this script from the article: https://blog.devgenius.io/build-your-first-ci-cd-pipeline-using-docker-github-actions-and-webhooks-while-creating-your-own-da783110e151
