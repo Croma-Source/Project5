@@ -48,4 +48,5 @@ Used from this script from the article: https://blog.devgenius.io/build-your-fir
   '
 
   # Part 4
-  [Blank diagram (1).pdf](https://github.com/Croma-Source/Project5/files/10143166/Blank.diagram.1.pdf)
+![image](https://user-images.githubusercontent.com/77748353/205352475-6a827bee-bdc9-447b-92c0-9f7d33cf008d.png)
+
